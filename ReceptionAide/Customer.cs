@@ -10,7 +10,19 @@ namespace ReceptionAide
     {
 
         private string name;
+        private Sex sex;
         private DateTime birthDate;
+        private Address address;
+
+        public Customer(string name, Sex sex, DateTime birthDate)
+        {
+
+            this.name = name;
+            this.sex = sex;
+            this.birthDate = birthDate;
+            this.address = new Address();
+
+        }
 
     }
 
