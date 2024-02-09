@@ -24,6 +24,41 @@ namespace ReceptionAide
 
         }
 
+        public string GetName()
+        {
+            return this.name;
+        }
+
+        public void SetName(string name)
+        {
+            this.name = name;
+        }
+
+        public Sex GetSex()
+        {
+            return this.sex;
+        }
+
+        public void SetSex(Sex sex)
+        {
+            this.sex = sex;
+        }
+
+        public DateTime GetBirthDate()
+        {
+            return this.birthDate;
+        }
+
+        public void SetBirthDate(DateTime birthDate)
+        {
+            this.birthDate = birthDate;
+        }
+
+        public Address GetAddress()
+        {
+            return this.address;
+        }
+
     }
 
 }
